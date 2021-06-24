@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+crowd-form {
+  height: 10px;
+}
+</style>
+</head>
+<body>
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<div id='document-text' style="display: none;">
+  {{ task.input.text }}
+</div>
+<div id='encodedImage' style="display: none;">
+  {{ task.input.textObject }}
+</div>
+<div id="metadata" style="display: none;">
+  {{ task.input.metadata }}
+</div>
+
+<crowd-form>
+    <input name="annotations" id="annotations" type="hidden">
+
+     <!-- Prevent crowd-form from creating its own button -->
+    <crowd-button form-action="submit" style="display: none;"></crowd-button>
+</crowd-form>
+
+<!-- Custom annotation user interface is rendered here -->
+<div id="root"></div>
+
+<crowd-button id="submitButton">Submit</crowd-button>
+
+<script>
+    document.querySelector('crowd-form').onsubmit = function() {
+        const annotation = JSON.parse(document.querySelector('pre').innerText);
+        //alert(JSON.stringify(annotation.value));
+        var output = {text: document.querySelector('#document-text').innerText, meta: annotation.metadata, annotation_approver: null, labels: []};       
+        for (var i = 0; i < annotation.value.length; i++) {
+          output.labels.push([annotation.value[i].start, annotation.value[i].end, annotation.value[i].tag])
+        }
+        //alert(JSON.stringify(output, null, 2));
+        document.getElementById('annotations').value = JSON.stringify(output);
+    };
+
+    document.getElementById('submitButton').onclick = function() {
+        document.querySelector('crowd-form').submit();
+    };
+</script>
+
+</body>
+</html>

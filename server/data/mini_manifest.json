@@ -1,0 +1,2 @@
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00006.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00006.jpg.csv', 'metadata': {'Author': 'Robert Underwood', 'ISBN': '1-358-98355-0'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00015.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00015.jpg.csv', 'metadata': {'Author': 'Stephanie Morgan', 'ISBN': '1-242-55362-2'}}

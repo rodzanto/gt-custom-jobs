@@ -1,0 +1,10 @@
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00006.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00006.jpg.csv', 'metadata': {'Author': 'Robert Underwood', 'ISBN': '1-358-98355-0'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00015.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00015.jpg.csv', 'metadata': {'Author': 'Stephanie Morgan', 'ISBN': '1-242-55362-2'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00040.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00040.jpg.csv', 'metadata': {'Author': 'Angela Anderson', 'ISBN': '0-567-58708-8'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00041.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00041.jpg.csv', 'metadata': {'Author': 'Kenneth Stanley', 'ISBN': '1-68939-208-8'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00052.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00052.jpg.csv', 'metadata': {'Author': 'Bruce Peck', 'ISBN': '0-7126-2438-4'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00090.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00090.jpg.csv', 'metadata': {'Author': 'Kerry Phillips', 'ISBN': '1-61581-532-5'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00114.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00114.jpg.csv', 'metadata': {'Author': 'Frederick Watson', 'ISBN': '1-342-56153-8'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00128.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00128.jpg.csv', 'metadata': {'Author': 'Jennifer Gray', 'ISBN': '0-10-489174-2'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/1801_00146.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/1801_00146.jpg.csv', 'metadata': {'Author': 'William Alexander', 'ISBN': '0-683-11895-1'}}
+{'source-ref': 's3://smgtannotation/raw-abstracts-jpgs/arXiv_1801_00067v2__astro-ph_GA__3_Apr_2018.jpg', 'text-file-s3-uri': 's3://smgtannotation/text/arXiv_1801_00067v2__astro-ph_GA__3_Apr_2018.jpg.csv', 'metadata': {'Author': 'Sean Moore', 'ISBN': '0-00-940460-0'}}
